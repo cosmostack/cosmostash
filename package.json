@@ -1,0 +1,42 @@
+{
+  "name": "cosmostash",
+  "version": "0.0.1",
+  "description": "Server for cosmostack",
+  "main": "main.js",
+  "scripts": {
+    "dev": "ts-node-dev src/main.ts",
+    "build": "tsc",
+    "start": "node -r tsconfig-paths/register main.js",
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cosmostack/cosmostack.git"
+  },
+  "keywords": [
+    "hackable",
+    "Headless",
+    "CMS",
+    "server",
+    "cosmostack"
+  ],
+  "author": "akterstack@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cosmostack/cosmostack/issues"
+  },
+  "homepage": "https://github.com/cosmostack/cosmostack#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.2.7"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "ts-node": "^8.3.0",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "tsconfig-paths": "^3.8.0",
+    "tslint": "^5.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.5.3"
+  }
+}
